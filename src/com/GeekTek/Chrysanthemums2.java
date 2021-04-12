@@ -5,8 +5,8 @@ public class Chrysanthemums2 extends Chrysanthemums1 {
     private int views1;
     private Color4 color;
 
-    public Chrysanthemums2(String name, int price, int views1, Color4 color) {
-        super(name, price);
+    public Chrysanthemums2(String name, int price,String address, String open, String close, int views1, Color4 color) {
+        super( close,open,address,name, price);
         this.views1 = views1;
         this.color = color;
     }
@@ -19,7 +19,7 @@ public class Chrysanthemums2 extends Chrysanthemums1 {
         return color;
     }
 
-    public String getInfo(){
+    final  public String  getInfo(){
         return super.getInfo()+"\nколичество видов-"+views1+"\nвид рамашка-"+ views1
                 +"\nсферический-"+views1+"\nцвет-"+color;
     }

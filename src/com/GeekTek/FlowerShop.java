@@ -3,11 +3,11 @@ package com.GeekTek;
 public class FlowerShop {
 
     private String address;
-    private double open;
-    private double close;
+    private String open;
+    private String close;
 
 
-    public FlowerShop(String address, double open, double close) {
+    public FlowerShop(String address, String open, String close) {
         this.address = address;
         this.open = open;
         this.close = close;
@@ -21,11 +21,11 @@ public class FlowerShop {
         return address;
     }
 
-    public double getOpen() {
+    public String getOpen() {
         return open;
     }
 
-    public double getClose() {
+    public String getClose() {
         return close;
     }
 

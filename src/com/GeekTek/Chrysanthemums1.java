@@ -6,10 +6,12 @@ public class Chrysanthemums1 extends FlowerShop {
     private String name;
     private int price;
 
-    public Chrysanthemums1(String name, int price) {
+    public Chrysanthemums1(String address, String open, String close,String name, int price) {
+        super( address,open,close);
         this.name = name;
         this.price = price;
     }
+
 
     public String getName() {
         return name;

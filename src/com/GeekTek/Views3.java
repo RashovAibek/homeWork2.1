@@ -1,6 +1,6 @@
 package com.GeekTek;
 
-public class Views3 {
+public final class Views3 {
       private String chamomile;
       private String spherical;
 
